@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+
+.conatiner {
+  background-image: url('assets/images/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 80vh;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  background-color: black;
+  height: 80vh;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.logo img {
+  position: relative;
+  z-index: 10;
+  color: red;
+  top: 6px;
+}
+
+.nav-Buttons {
+  display: flex;
+  position: relative;
+  z-index: 10;
+  color: white;
+  gap: 23px;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  gap: 23px;
+}
+
+.hero > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nav-select {
+  background-color: rgba(23, 23, 23, 0.99);
+  color: white;
+  padding: 6px 36px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-section input {
+  width: 359px;
+  height: 56px;
+  padding: 24px 16px 8px;
+  background-color: rgba(23, 23, 23, 0.2);
+  color: white;
+  border: 1px solid rgba(240, 240, 240, 0.2);
+  border-radius: 4px;
+}
+
+.signInbtn {
+  width: 77px;
+  height: 32px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-section button {
+  width: 210px;
+  height: 56px;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sepration {
+  height: 8px;
+  width: 100%;
+  background-color: #232323;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+  width: 70vw;
+}
+
+.sectionText {
+  color: white;
+}
+
+.sectionText :first-child {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sectionText :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.sectionImg {
+  position: relative;
+}
+
+.sectionImg img {
+  position: relative;
+  z-index: 20;
+}
+
+.sectionImg video {
+  position: absolute;
+  right: 76px;
+  top: 90px;
+}
+
+.third video {
+  width: 410px;
+  position: absolute;
+  top: 56px;
+  left: 115px;
+}
+
+.second-download {
+  background: black;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+  border-radius: 0.75rem;
+  width: 360px;
+  margin: auto;
+  height: 100px;
+  position: absolute;
+  top: 335px;
+  z-index: 30;
+  right: 146px;
+  padding: 8px 12px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.second-download :first-child {
+  width: 50px;
+}
+
+.download-content {
+  margin: 22px 0;
+  line-height: 1;
+}
+
+.download-content :first-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.download-content :nth-child(2) {
+  font-size: 14px;
+  color: #0071eb;
+  margin-right: 74px;
+  font-weight: 400;
+}
+
+.faqs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin: 40px auto;
+}
+
+.faqs h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.question {
+  cursor: pointer;
+  margin-top: 22px;
+  width: 60vw;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+  background-color: #2d2d2d;
+  transition: 0.25s all ease-in-out;
+}
+
+.question:hover {
+  background-color: #3c3b3b;
+}
+
+.question :first-child {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.last :first-child {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40vw;
+  margin: 22px auto;
+  gap: 22px;
+}
+
+.footer-no {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-heading {
+  color: white;
+  text-align: left;
+}
+
+.footer-name {
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
